@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+
+
+	
+	<title>url shortener</title>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+  	<link type="text/css" rel="stylesheet" href="static/styles.css" />
+        
+</head>
+<body>
+<div id="container">
+<div id="header"><h1>URL shortener</h1></div>
+  <div id="wrapper">
+    <div id="content">
+      
+	
+		<form name="graph" >							
+			<div>
+				<div>
+					
+				</div>
+
+				
+			</div>
+		</form>
+		<div align="center">
+			
+			<form action="/redirect" method="POST">
+			
+			<textarea cols="60" rows="6" name="key"></textarea>
+
+			<table>
+			<td><input type="submit" value="Shorten" /></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" /></td>
+			
+			<tr>
+			
+			<td><h3>your tiny url :  </h3></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: Blue;" href="{{ url }}"/><b>{{ url }}</b></td>
+			</tr>
+			</table>
+			
+		</div>
+
+		
+      
+    </div>
+  
+  <div id="footer"><br><br><center>
+    <font size=2>Created by : <b>Sreehari k marar     </b> Contact : <b>sreeharikmarar@gmail.com </b></font><br><br>
+  </div>
+</div>
+</body>
+</html>

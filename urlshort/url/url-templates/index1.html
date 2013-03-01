@@ -1,0 +1,12 @@
+<html>
+<h1>URL shortner</h1>
+<body>
+<!--<form action="{%url url.views.redirect %}" method="POST">-->
+<form action="/redirect/" method="POST">
+<input type="text" name="key" />
+<input type="submit" />
+
+<a href= "{{ url }}">{{ url }}</a>
+</form>
+</body>
+</html>
